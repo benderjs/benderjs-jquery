@@ -1,0 +1,9 @@
+{
+  "name": "bender-jquery",
+  "version": "0.0.1",
+  "description": "jQuery plugin for Bender.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
