@@ -4,7 +4,7 @@ benderjs-jquery
 [jQuery](http://jquery.com) plugin for [Bender.js](https://github.com/benderjs/benderjs).
 
 Creates tests for all versions of jQuery specified in `bender.js` configuration file.
-Appropriate version of jQuery will be included in the test context.
+Appropriate version of jQuery will be downloaded from [jQuery's CDN](http://code.jquery.com/jquery/), cached and included in the test context.
 
 Installation
 ------------
@@ -67,10 +67,6 @@ As a result 3 tests will be created:
 - tests/tests?jquery=1.10.2
 - tests/tests?jquery=2.0.1
 
-Todo
-----
-
-- Downloading and caching any version of jQuery from the CDN.
 
 License
 -------
