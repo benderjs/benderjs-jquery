@@ -1,7 +1,6 @@
 {
 	"excludeFiles": [
-		"node_modules/*",
-		"vendor/*"
+		"node_modules/*"
 	],
 
 	"requireCurlyBraces": [
