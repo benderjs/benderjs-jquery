@@ -1,6 +1,6 @@
 {
 	"name": "benderjs-jquery",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "jQuery plugin for Bender.js",
 	"keywords": [
 		"jquery",
