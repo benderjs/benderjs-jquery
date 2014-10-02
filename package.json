@@ -12,6 +12,7 @@
 	"license": "MIT",
 	"main": "lib/index.js",
 	"scripts": {
+		"lint": "jscs . && jshint lib/",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -24,5 +25,9 @@
 	"dependencies": {
 		"lodash": "~2.4.1",
 		"request": "~2.37.0"
+	},
+	"devDependencies": {
+		"jscs": "^1.6.2",
+		"jshint": "^2.5.6"
 	}
 }
